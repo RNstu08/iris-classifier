@@ -30,3 +30,8 @@ Then:
 git add README.md
 git commit -m "Add README"
 git push
+
+## pip freeze > requirements.txt     # Save all installed packages
+git add requirements.txt          # Tell Git to track this new file
+git commit -m "Add requirements.txt"  # Save the change locally
+git push                          # Upload to GitHub
